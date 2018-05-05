@@ -52,7 +52,7 @@ ul {
 }
 
 li {
-    float: center;
+    clear: both;
 }
 
 li a {
@@ -78,6 +78,10 @@ footer a {
   background-color: #333;
 }
 
+footer a:hover {
+  background-color: #111;
+}
+
 small {
     font-family: 'Montserrat', sans-serif;
 }
@@ -86,12 +90,14 @@ small {
 </head>
 
 <body>
-  <h1>FlrGrl</h1><a id="top">
-  <ul>
-    <li><a href="#1">About</a></li> <!-- Anchor links to navigate page -->
-    <li><a href="#2">Posts</a></li>
-    <li><a href="#3">Social Media</a></li>
-  </ul>
+  <h1>FlrGrl</h1><a id="top"></a>
+  <nav>
+    <ul>
+      <li><a href="#1">About</a></li> <!-- Anchor links to navigate page -->
+      <li><a href="#2">Posts</a></li>
+      <li><a href="#3">Social Media</a></li>
+    </ul>
+  </nav>
 
 <section class="about"><a id="1"></a>
 <h2>About</h2>
@@ -100,6 +106,7 @@ small {
   FlrGrl is a style blog dedicated to empowering women around the world by inspiring confidence and creativity
   through art and fashion. Started in 2018 by siblings Ryan and Lauren Maten, the two bored students decided to take their passion for fashion
   and turn that into a real fake fashion blog.</p>
+
   <blockquote>"Yeah, sure. That'd be cool."<br>
   <small>-Lauren after being asked if she wanted to start a blog.</small>
   </blockquote>
@@ -107,7 +114,6 @@ small {
 
 <section><a id="2"></a>
 <h2>Posts</h2>
-
 <figure>
   <img title="Stock Photo" alt="Red flowerbed next to a lake." src="https://images.pexels.com/photos/234455/pexels-photo-234455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" width="400px">
   <h4>Image Title</h4>
