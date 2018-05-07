@@ -74,3 +74,7 @@ footer a {
 small {
     font-family: 'Montserrat', sans-serif;
 }
+
+.tab {
+   text-indent: 15px;
+}
